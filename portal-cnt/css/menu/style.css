@@ -1,0 +1,259 @@
+.header-block-wrapper {
+  width: 100%;
+  z-index: 1;
+}    
+.header__background__wrapper {
+  position: relative;
+}
+/* Портал СНТ - Программа */
+.header-wrapper {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.header-menu-img {
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "NotoSans-Regular";
+  height: 33px;
+  cursor: pointer;
+}    
+.header-right {
+  display: flex;
+  height: inherit;
+  position: relative;
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  margin-right: 34px;
+}
+  .navbar {
+      display: flex;
+      height: 92px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      align-items: center;
+  }
+  .navbar__item {
+      display: flex;
+      align-items: center;
+      height: inherit;
+  }
+  .navbar__item__link {
+      position: relative;
+      font-family: "NotoSans-Light";
+      font-size: 16px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      padding: 10px 27px 10px 29px;
+  }
+  .navbar__item__link__account {
+      position: relative;
+      font-family: "NotoSans-Light";
+      font-size: 16px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      padding: 10px 27px 10px 29px;
+  }
+  .navbar__item__link__account:after {
+      position: absolute;
+      content: "‹";
+      transform: rotate(-90deg);
+      right: 12px;
+      top: 10px;
+      font-family: "NotoSans-Medium";
+      font-size: 17px;
+  }
+  .when__navbar__submenu__hover.navbar__item__link__account:after {
+      display: block;
+      position: absolute;
+      content: "‹";
+      transform: rotate(-90deg);
+      right: 12px;
+      top: 10px;
+      font-family: "NotoSans-Medium";
+      font-size: 17px;
+  }
+  .navbar__item__link__notactive:hover {
+      opacity: 1;
+  }
+  .navbar__item__link:hover {
+      text-decoration: none;
+      font-family: "NotoSans-Medium";
+      font-size: 16px;
+      font-weight: 300;
+      cursor: pointer;
+  }
+  .navbar__item__link__account:hover ~ .navbar-submenu {
+      display: block;
+  }
+  .navbar__item__link__account:hover:after {
+      display: block;
+  }
+  
+  .navbar-submenu {
+      position: absolute;
+      left: 7px;
+      top: 62px;
+      display: none;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.05);
+      width: 200px;
+      height: 146px;
+      padding: 12px 10px 5px 10px;
+      z-index: 1;
+  }
+  .navbar-submenu:hover {
+      display: block;
+  }
+  .when__navbar__submenu__hover {
+      text-decoration: none;
+      font-family: "NotoSans-Medium" !important;
+      font-size: 16px !important;
+      font-weight: 300 !important;
+  }
+  .navbar-submenu__item {
+      border-radius: 4px;
+  }
+  .navbar-submenu__item:not(:last-child) {
+      margin-bottom: 5px;
+  } 
+  .navbar-submenu__item__link {
+      font-family: "NotoSans-Light";
+      font-size: 16px;
+      color: #000000;
+      display: flex;
+      width: 180px;
+      height: 38px;
+      align-items: center;
+      padding-left: 13px;
+      border-radius: 4px;
+  }
+  .navbar-submenu__item__link:hover {
+      text-decoration: none;
+      background-color: rgba(216, 216, 216, 0.3);
+      font-family: "NotoSans-Regular";
+      color: #000000;
+  }
+  .navbar-submenu__item:hover .navbar-submenu__item__link {
+      font-family: "NotoSans-Regular";
+      font-size: 16px;
+      color: #000000;
+  }
+  .header-right__button__wrapper {
+      display: flex;
+      align-items: center;
+      width: 117px;
+      height: 92px;
+  }
+  .header-right__button {
+      font-size: 16px;
+      font-family: "NotoSans-Regular";
+      border-radius: 8px;
+      box-sizing: border-box;
+      padding: 7px 34px 9px 34px;
+      outline:none;
+      border: 0;
+      height: 40px;
+  }
+  .header-right__button:hover, .header-right__button:visited, .header-right__button:link, .header-right__button:active  {
+      text-decoration: none;
+  }
+  .main-menu-mobile {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0; 
+      background-color: #000000;
+      z-index: 1000;
+      transition:  0.5s ease-out 0.1s;
+      transform: translateX(-100%);
+  }
+  .main-menu-mobile__closed {
+      transform: translateX(0);
+  }
+  .navbar-mobile {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .navbar-mobile__item {
+      position: relative;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .navbar-mobile__item__link {
+      font-family: "NotoSans-Medium";
+      font-size: 19px;
+      font-weight: 300;
+      color: #ffffff;
+      text-decoration: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .navbar-mobile__item__link:visited {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .navbar-mobile__item__link:active {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .navbar-mobile__item__link:focus {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .main-menu-mobile__btn {
+      position: absolute;
+      top: 10px;
+      left: 15px;
+      color: #ffffff;
+      font-size: 26px;
+  }
+  .navbar-mobile-submenu__item {
+      margin-top:  10px;
+      margin-bottom: 8px;
+      text-align: center;
+
+  }
+  .navbar-mobile-submenu__item__link {
+      font-family: "NotoSans-Light";
+      font-size: 18px;
+      font-weight: 300;
+      color: #ffffff;
+      text-decoration: none;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .navbar-mobile-submenu__item__link:visited {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .navbar-mobile-submenu__item__link:active {
+      text-decoration: none;
+      color: #ffffff;
+  }
+  .navbar-mobile-submenu__item__link:focus {
+      text-decoration: none;
+      color: #ffffff;
+  }

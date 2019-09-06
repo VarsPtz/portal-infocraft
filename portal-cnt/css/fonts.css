@@ -1,0 +1,47 @@
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,500,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i&display=swap&subset=cyrillic'); */
+
+@font-face {
+  font-family: "NotoSans-Regular";
+  src: url("../fonts/NotoSansSC-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NotoSans-Light";
+  src: url("../fonts/NotoSansSC-Light.otf"); 
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "NotoSans-Medium";
+  src: url("../fonts/NotoSansSC-Medium.otf");
+  font-style: normal;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("../fonts/NotoSansSC-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PTSerif-Regular";
+  src: url("../fonts/PTSerif-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url("../fonts/PTSerif-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+
+

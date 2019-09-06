@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="60" cy="60" r="58" stroke="#45597E" stroke-width="4"/>
+        <rect width="17" height="17" x="36.5" y="67.5" stroke="#405478" stroke-width="3" rx="2"/>
+        <rect width="17" height="17" x="66.5" y="36.5" stroke="#405478" stroke-width="3" rx="2"/>
+        <rect width="17" height="17" x="66.5" y="67.5" stroke="#405478" stroke-width="3" rx="2"/>
+        <rect width="17" height="17" x="36.5" y="36.5" stroke="#405478" stroke-width="3" rx="2"/>
+        <path stroke="#405478" stroke-linecap="round" stroke-width="2" d="M47.75 60h23.5M60 42v17.5M60 68v16"/>
+        <g stroke="#405478" stroke-linecap="round" stroke-width="3">
+            <path d="M28.5 48.5v-18M28.5 29.5h19"/>
+        </g>
+        <g stroke="#405478" stroke-linecap="round" stroke-width="3">
+            <path d="M28.5 72.75v18M28.5 91.5H47"/>
+        </g>
+        <g stroke="#405478" stroke-linecap="round" stroke-width="3">
+            <path d="M90.5 71.75v18M90.5 90.5H72"/>
+        </g>
+        <g stroke="#405478" stroke-linecap="round" stroke-width="3">
+            <path d="M90.5 48.25v-18M90.5 29.5H72"/>
+        </g>
+    </g>
+</svg>
